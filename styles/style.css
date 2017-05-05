@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+}
+.h-img {
+  width: 50%;
+}
+.h-para{
+  width: 50%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.item img {
+  width: calc(100% - 20px) / 3;
+}
+.m-pic1{
+
+  margin-right: 10px;
+}
+.m-pic2{
+
+  margin-right: 10px;
+}
+
+.m-bg img {
+  width: 100%;
+}
