@@ -3,51 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-  <header class="header">
-    <div class="h-img">
-     <img src="images/logo.jpg" alt="U logo">
-   </div>
-   <div class="h-para">
-     <h1>jane doette</h1>
-     <p>front-end ninja</p>
-   </div>
-  </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+           <img src="images/logo.jpg" alt="U logo">
+        </div>
+      <div class="col-md-6 text-uppercase text-right">
+       <h1 class="text-default text-thin">jane doette</h1>
+       <p>front-end ninja</p>
+      </div>
+     </div>
   <hr>
-  <article class="m-bg">
-    <picture>
-      <source>
-      <img src="images/h1.jpg" alt="background color">
-    </picture>
-  </article>
-  <div>
-    <h2>Featured Work</h2>
-  </div>
-  <div class="container">
-    <div class="item">
-      <picture>
-        <img src="images/p1.jpg" class="m-pic1" alt="p1">
-      </picture>
-      <h3></h3>
-      <p></p>
-    </div>
-    <div class="item">
-      <picture>
-        <img src="images/p2.jpg" class="m-pic2" alt="p2">
-      </picture>
-      <h3></h3>
-      <p></p>
-    </div>
-    <div class="item">
-      <picture>
-        <img src="images/p3.jpg" alt="p3">
-      </picture>
-      <h3></h3>
-      <p></p>
+  <div class="row">
+    <div class="col-md-12">
+      <img src="images/h1.jpg" alt="background color" class="img-responsive">
     </div>
   </div>
+<div class="row">
+  <div class="col-md-12">
+    <h2 class="text-default">Featured Work</h2>
+  </div>
+</div>
 
+  <div class="row">
+    <div class="col-md-4">
+
+        <img src="images/p1.jpg" class="img-responsive" alt="p1">
+
+      <h3 class="text-uppercase text-center">appify</h3>
+      <p class="text-center">https://github.com/udacity/Appify/</p>
+    </div>
+    <div class="col-md-4">
+
+        <img src="images/p2.jpg" class="img-responsive" alt="p2">
+
+      <h3 class="text-uppercase text-center">sunflower</h3>
+      <p class="text-center">https://github.com/udacity/Sunflower/</p>
+    </div>
+    <div class="col-md-4">
+
+        <img src="images/p3.jpg" class="img-responsive" alt="p3">
+
+      <h3 class="text-uppercase text-center">bokeh</h3>
+      <p class="text-center">https://github.com/udacity/Bokeh/</p>
+    </div>
+  </div>
+</div>
   </body>
 </html>
