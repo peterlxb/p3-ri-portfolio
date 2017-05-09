@@ -2,57 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel='stylesheet' media='screen and (min-width: 413px) and (max-width: 768px)' href='styles/medium.css' />
+    <link rel='stylesheet' media='screen and (max-width: 412px) ' href='styles/small.css' />
+
   </head>
   <body>
+    <header>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-           <img src="images/logo.jpg" alt="U logo">
-        </div>
-      <div class="col-md-6 text-uppercase text-right">
-       <h1 class="text-default text-thin">jane doette</h1>
-       <p>front-end ninja</p>
+      <div class="m-logo">
+        <img src="images/logo.jpg"
+        srcset="images_src/logo-small.jpg 412w"  class="img-logo" alt="U logo">
       </div>
-     </div>
+      <div class="m-head text-thin text-default">
+       <h1 class="text-thin">PETER LIU</h1>
+       <p class="text-right">FRONT-END NINJA</p>
+      </div>
    </div>
+ </header>
   <hr>
-  <div class="row">
-    <div class="">
-      <img src="images/h1.jpg" alt="background color">
+
+    <div>
+      <img src="images/h1.jpg"
+      srcset="images_src/h1-small.jpg 412w" class="m-nav" alt="background color">
+    </div>
+
+  <div class="m-headline text-large text-thin text-default">
+    <h2 class="text-default text-thin">Featured Work</h2>
+  </div>
+  <section>
+  <div class="m-project">
+    <div class="m-working">
+      <img src="images/p1.jpg" class="m-img" alt="project1">
+      <h3 class="text-center">
+        <a href="https://github.com/peterlxb/P1-Blog-Article">ARTICLE</a>
+      </h3>
+      <p class="text-center">https://github.com/peterlxb/P1-Blog-Article</p>
+    </div>
+    <div class="m-working">
+      <img src="images/p2.jpg" class="m-img" alt="project2">
+      <h3 class="text-center">
+        <a href="https://github.com/peterlxb/p2-animal-card">ANIMALCARD</a>
+      </h3>
+      <p class="text-center">https://github.com/peterlxb/p2-animal-card</p>
+    </div>
+    <div class="m-working">
+      <img src="images/p3.jpg" class="m-img" alt="p3">
+      <h3 class="text-center">
+        <a href="https://github.com/peterlxb/p3-ri-portfolio">RIPORTFOLIO</a>
+      </h3>
+      <p class="text-center">https://github.com/peterlxb/p3-ri-portfolio</p>
     </div>
   </div>
-<div class="">
-
-    <h2 class="text-default">Featured Work</h2>
-
-</div class="container">
-  <div>
-  <div class="row">
-    <div class="col-md-4">
-
-        <img src="images/p1.jpg" class="img-responsive" alt="p1">
-
-      <h3 class="text-uppercase text-center">appify</h3>
-      <p class="text-center">https://github.com/udacity/Appify/</p>
-    </div>
-    <div class="col-md-4">
-
-        <img src="images/p2.jpg" class="img-responsive" alt="p2">
-
-      <h3 class="text-uppercase text-center">sunflower</h3>
-      <p class="text-center">https://github.com/udacity/Sunflower/</p>
-    </div>
-    <div class="col-md-4">
-
-        <img src="images/p3.jpg" class="img-responsive" alt="p3">
-
-      <h3 class="text-uppercase text-center">bokeh</h3>
-      <p class="text-center">https://github.com/udacity/Bokeh/</p>
-    </div>
-  </div>
-</div>
+</section>
   </body>
 </html>

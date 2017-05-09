@@ -1,0 +1,18 @@
+.img-logo {
+  width: 10vw;
+  height: 10vh;
+}
+.m-nav {
+  width: 100vw;
+  height: 60vh;
+}
+.m-img{
+  width: 100vw;
+}
+.m-project{
+  flex-wrap: wrap;
+}
+.m-working {
+  width: 100%;
+  flex:1
+}

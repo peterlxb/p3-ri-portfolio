@@ -1,9 +1,44 @@
-.text-thin {
-  font-weight: 70;
-}
-.text-default {
-  font-family: 'Roboto', sans-serif;
-}
+
 .container {
   display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.text-thin {
+  font-weight: lighter;
+}
+
+.text-default {
+  /*font-family: 'Roboto Slab', serif;*/
+  font-size: 1.55em;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.m-logo {
+  position: relative;  //stay in the document flow
+  left:35px;
+  top: 35px;
+}
+.img-logo {
+  width: 14vw;
+  height: 14vh;
+}
+
+.m-project {
+  display: flex;
+  justify-content: space-between;
+}
+.m-nav{
+  width: 100vw;
+  height: 100vh;
+}
+.m-working{
+  flex: 1;
+}
+.m-img{
+  width: calc((100% - 20px) / 1);
 }
