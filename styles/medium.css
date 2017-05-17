@@ -17,6 +17,9 @@
 .text-large {
   font-size: 1.4em;
 }
+.m-headline {
+  text-align: center;
+}
 .m-project{
   flex-wrap: wrap;
 }
@@ -27,4 +30,8 @@
 .m-working {
   width: 100%;
   flex:1
+}
+.m-img {
+  width: 80vw;
+  margin:0 10vw;
 }

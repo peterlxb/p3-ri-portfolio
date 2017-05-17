@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: flex;
   position: relative;
@@ -31,6 +34,8 @@
 .m-project {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 .m-nav{
   width: 100vw;
